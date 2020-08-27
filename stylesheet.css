@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "BalsamiqSans";
+    src: url("fonts/BalsamiqSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "DoHyeon";
+	src: url("fonts/DoHyeon-Regular.ttf");
+}
+
+@font-face {
+	font-family: "LondrinaSolid";
+	src: url("fonts/LondrinaSolid-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Graphik";
+	src: url("fonts/Graphik-Regular.woff") format('woff');
+}
+
+@font-face {
+	font-family: "Courgette";
+	src: url("fonts/Courgette-Regular.ttf");
+}
+
+* {
+  font-family: 'Graphik', sans-serif;
+}
+
+body {
+  background-color: #121212;
+  padding: 0;
+  margin: 0;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  color: white;
+  text-align: center;
+}
+
+.inner a {
+  text-decoration: none;
+  font-family: 'BalsamiqSans';
+  margin: 10px;
+  color: #FC00FF;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.inner a:hover {
+  font-weight: bolder;
+  color: #7B4AAF;
+}
+
+.links {
+  display: block;
+}
+
+.err {
+	font-family: 'LondrinaSolid';
+	height: 40px;
+}
+
+.sans {
+	font-family: 'BalsamiqSans';
+	height: 10px;
+}
+
+.sans2 {
+	font-family: 'BalsamiqSans';
+}
+
+.winks {
+	font-family: 'Courgette';
+}
+
+.projects {
+  transition: 0.2s;
+  font-family: 'LondrinaSolid';
+  margin-top: 15px;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  background: linear-gradient(176deg, #00BFC2 15.63%, rgba(0, 113, 255, 0.31) 89.58%), #FC00FF;
+}
+
+.projects:hover {
+  transform: translateY(3px);
+  background: linear-gradient(352deg, #00BFC2 15.63%, rgba(0, 113, 255, 0.31) 89.58%), #FC00FF;
+}
+
+.goProjects {
+  color: white!important;
+}
+
+.goProjects:hover {
+  color: white!important;
+}
+
+.back {
+  transition: 0.2s;
+  margin-top: 15px;
+  font-family: 'LondrinaSolid';
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  background: linear-gradient(176deg, #FC00FF 15.63%, rgba(0, 113, 255, 0.31) 89.58%), #00BFC2;
+}
+
+.back:hover {
+  transform: translateY(3px);
+  font-weight: bolder;
+  background: linear-gradient(352deg, #00BFC2 15.63%, rgba(0, 113, 255, 0.31) 89.58%), #FC00FF;
+}
+
+.goBack {
+  color: white!important;
+}
+
+.goBack:hover {
+  color: #232323!important;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 420px) {
+  .links {
+    display: block;
+  }
+}
