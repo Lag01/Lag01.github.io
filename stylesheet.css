@@ -69,13 +69,13 @@ body {
   color: #BF14C5;
 }
 
-.inner ghbtn {
+.ghbtn {
 	font-family: 'DoHyeon';
 	font-weight: bolder;
 	color: #BF14C5;
 }
 
-.inner ghbtn:hover {
+.ghbtn:hover {
 	color: #FC00FF;
 }
 
